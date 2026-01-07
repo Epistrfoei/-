@@ -547,3 +547,285 @@ label:last-child {
   display: inline-block;
   vertical-align: middle;
 }
+
+.about-company {
+  margin-bottom: 502px;
+}
+
+.about-company-left {
+  display: inline-block;
+}
+
+.about-company-left h2 {
+  font-size: 38px;
+  max-width: 396px;
+  margin-bottom: 28px;
+  line-height: 64px;
+}
+
+.about-company-left h2 + p {
+  max-width: 382px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(103, 112, 113, 1);
+  width: 500px;
+  text-align: justify;
+  margin-bottom: 46px;
+}
+
+.about-company-left ul {
+  list-style: none;
+}
+
+.about-company-left ul li {
+  display: inline-block;
+  margin-right: 91px;
+  position: relative;
+}
+
+.about-company-left ul li::after {
+  content: "";
+  position: absolute;
+  right: -45px;
+  top: 0;
+  height: 70%;
+  width: 1px;
+  background-color: rgba(207, 204, 204, 1);
+}
+
+.about-company-left ul li:last-child {
+  margin-right: 0;
+}
+
+.about-company-left ul li:last-child::after {
+  content: none;
+}
+
+.about-company-left ul li p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.about-company-left ul li b {
+  font-size: 26px;
+}
+
+.about-company-right {
+  display: inline-block;
+  padding: 41px 41px 29px 41px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 8px 27px 69px 0 rgba(0, 0, 0, 0.08);
+  margin-left: 180px;
+  max-width: 450px;
+  position: relative;
+}
+
+.about-company-right .points {
+  display: block;
+  position: relative;
+  right: -345px;
+  margin-bottom: 36px;
+}
+
+.about-company-right .points:hover {
+  cursor: pointer;
+}
+
+.about-company-right .points + img {
+  width: 370px;
+  border-radius: 10px;
+  margin-bottom: 38px;
+}
+
+.bookmark-icon {
+  position: absolute;
+  bottom: 270px;
+  right: 70px;
+  padding-inline: 17px;
+  padding-block: 13px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+.bookmark-icon:hover {
+  cursor: pointer;
+}
+
+.people {
+  margin-bottom: 34px;
+  height: 53px;
+}
+
+.people img:not(:first-child) {
+  display: inline-block;
+  margin-left: -28px;
+}
+
+.people span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(2, 17, 18, 1);
+  margin-left: 23px;
+}
+
+.about-company-right .people + p {
+  max-width: 403px;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 182%;
+  color: rgba(103, 112, 113, 1);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.chat {
+  display: inline-block;
+}
+
+.share {
+  display: inline-block;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.about-company-right-social + a {
+  max-width: 160px;
+  position: absolute;
+  padding: 26px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 6px 22px 40px 0 rgba(0, 0, 0, 0.05);
+  top: 80px;
+  right: -105px;
+}
+
+.about-company-right {
+  position: relative;
+}
+
+.real-estate {
+  max-width: 284px;
+  position: absolute;
+  text-align: center;
+  padding-inline: 27px;
+  padding-block: 33px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 16px -16px 42px 0 rgba(0, 0, 0, 0.1);
+  left: -159px;
+  bottom: -125px;
+}
+
+.real-estate > img {
+  max-width: 68px;
+  border-radius: 50%;
+  background-color: rgba(243, 201, 139, 1);
+}
+
+.real-estate h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(2, 17, 18, 1);
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.real-estate p {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(204, 207, 208, 1);
+  margin-bottom: 16px;
+}
+
+.real-estate span {
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.social-info {
+  font-size: 2px;
+  color: rgba(103, 112, 113, 1);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.social-info p {
+  display: inline-block;
+}
+
+.social-info p:first-child {
+  margin-right: 113px;
+}
+
+.real-estate a {
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+  color: rgba(103, 112, 113, 1);
+  outline: 1px solid rgba(224, 226, 227, 1);
+  border-radius: 10px;
+}
+
+.social-info + a {
+  margin-right: 14px;
+}
+
+.real-estate a svg {
+  margin-right: 7px;
+}
+
+.real-estate a:hover {
+  background-color: rgba(119, 45, 139, 1);
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.chat,
+.share {
+  height: 40px;
+  font-size: 14px;
+  color: rgba(103, 112, 113, 1);
+}
+
+.chat {
+  transform: translate(160px, 20px);
+}
+
+.share {
+  transform: translate(120px, 20px);
+}
+.chat,
+.chat a,
+.share a,
+.chat p,
+.share p {
+  display: inline-block;
+}
+
+.chat p,
+.share p {
+  height: 100%;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.heart {
+  position: absolute;
+  width: 150%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contour-heart {
+  width: 185%;
+  position: absolute;
+  top: -120px;
+  left: -150px;
+  z-index: -1;
+}
