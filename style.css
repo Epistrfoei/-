@@ -829,3 +829,86 @@ label:last-child {
   left: -150px;
   z-index: -1;
 }
+
+.testimonials {
+  background-color: rgba(253, 246, 237, 1);
+  max-height: 992px;
+  margin-bottom: 243px;
+  padding-block: 189px;
+}
+
+.testimonials-left {
+  position: relative;
+  display: inline-block;
+}
+
+.testimonials-left .model-man {
+  position: absolute;
+  top: -861px;
+  left: -110px;
+  max-width: 800px;
+}
+
+.testimonials-left img:not(:first-child) {
+  display: inline-block;
+  position: relative;
+  bottom: 450px;
+  right: -590px;
+}
+
+.testimonials-left img:nth-child(3) {
+  position: relative;
+  bottom: 413px;
+  right: -479px;
+}
+
+.testimonials-right {
+  display: inline-block;
+  position: relative;
+  margin-left: 452px;
+  vertical-align: 100px;
+}
+
+.testimonials-right h1 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: rgba(19, 166, 186, 1);
+  margin-bottom: 10px;
+}
+
+.testimonials-right h2 {
+  font-size: 38px;
+  font-weight: 700;
+  max-width: 440px;
+  line-height: 58px;
+  margin-bottom: 49px;
+}
+
+.testimonials-right h2 + p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 390px;
+  margin-bottom: 58px;
+}
+
+.testimonials-right .author {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.testimonials-right .author + p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 29px;
+  color: rgba(103, 112, 113, 1);
+}
+
+.testimonials-right img {
+  position: absolute;
+  right: -150px;
+  top: -105px;
+  width: 182px;
+}
