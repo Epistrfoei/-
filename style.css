@@ -433,3 +433,117 @@ label:last-child {
   background-color: rgba(19, 166, 186, 1);
   color: white;
 }
+
+.benefit {
+  position: relative;
+  margin-bottom: 180px;
+}
+
+.hemisphere {
+  position: absolute;
+  display: block;
+  top: -240px;
+  left: 0;
+  width: 273px;
+}
+
+.benefit-left {
+  position: relative;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.benefit-left > img {
+  width: 650px;
+}
+
+.benefit .discover-place {
+  display: inline-block;
+}
+
+.discover-place {
+  position: absolute;
+  bottom: 50px;
+  left: -110px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  padding: 17px 37px 17px 19px;
+  box-shadow: -12px 16px 46px 0 rgba(0, 0, 0, 0.08);
+}
+
+.discover-place h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.discover-place p {
+  font-size: 12px;
+  margin-bottom: 18px;
+  color: rgba(204, 207, 208, 1);
+}
+
+.discover-place-item {
+  display: inline-block;
+  margin-right: 14px;
+  border-radius: 5px;
+}
+
+.discover-place-item img {
+  border-radius: 5px;
+}
+
+.discover-place-item:last-child > a > img {
+  margin-right: 0;
+  background-color: rgba(249, 54, 51, 1);
+  padding-inline: 23px;
+  padding-block: 17px;
+}
+
+.benefit .description {
+  display: inline-block;
+  padding-block: 62px;
+  vertical-align: top;
+}
+
+.benefit .description h1 {
+  font-size: 36px;
+  max-width: 420px;
+  margin-bottom: 87px;
+  font-weight: 700;
+}
+
+.benefit .description ul {
+  list-style: none;
+}
+
+.benefit .description ul li {
+  margin-bottom: 72px;
+  position: relative;
+}
+
+.benefit .description ul li h2 {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.benefit .description ul li p {
+  font-size: 16px;
+  margin-top: 12px;
+  color: rgba(103, 112, 113, 1);
+}
+
+.benefit .description .description-list .description-item img {
+  display: inline-block;
+  padding-inline: 32px;
+  padding-block: 27px;
+  background-color: rgba(251, 252, 237, 1);
+  border-radius: 10px;
+  max-width: 96px;
+  vertical-align: middle;
+  margin-right: 31px;
+}
+
+.benefit .description .description-list .description-item div {
+  display: inline-block;
+  vertical-align: middle;
+}
